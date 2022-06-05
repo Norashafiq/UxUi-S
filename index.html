@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+
+    <div id="maincont">
+        <!-- <div src="" -->
+
+        <div id="header">
+            <div>
+                <h1>central perk</h1>
+            </div>
+        </div>
+        <div id="title">
+            <div>
+                <h1>Frindes</h1>
+            </div>
+        </div>
+
+        <div id="box">
+            <div id="container">
+                <div id="like-box">
+                    <ul>
+                        <li>
+                            <h2>Ross </h2>
+                        </li>
+                        <li><span id="likes"></span> <span class="likes">like(s)</span></li>
+                        <li><button onclick="incrementClick()" class="btn">Like</button>
+                        </li>
+
+                </div>
+
+                </ul>
+
+                <p>We were on a <span>break!</span> </p>
+
+            </div>
+
+            <div id="box-2">
+                <div id="container">
+                    <div id="like-box2">
+                        <ul>
+                            <li>
+                                <h2>Chandler </h2>
+                            </li>
+                            <li><span id="likes-2"></span> like(s)</li>
+                            <li><button onclick="incrementClick1()" class="btn-1">Like</button>
+                            </li>
+
+                    </div>
+
+                    </ul>
+
+                    <p>Hi, Im Chandler. I make <span>jokes</span> when Im uncomfortable.</p>
+
+                </div>
+
+                <div id="box-3">
+                    <div id="container">
+                        <div id="like-box">
+                            <ul>
+                                <li>
+                                    <h2>Joey </h2>
+                                </li>
+                                <li><span id="likes-3"></span> <span class="like3">like(s)</span></li>
+                                <li><button onclick="incrementClick2()" class="btn-2">Like</button>
+                                </li>
+
+                        </div>
+
+                        </ul>
+
+                        <p>Joey <span>doesnt share </span>food!</p>
+
+                    </div>
+
+
+                    <div class="box-4">
+                        <div class="container">
+                            <div class="profile-pic">
+                                <img src="frindes.jpg" alt="Profile Pic ">
+                                <span>
+                                    <p> Add an avatar</p>
+                                </span>
+                                <div class="phoebe">
+                                    <h2>phoebe buffay</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="icon">
+                        <p>Play</p>
+                        <img src="play.png">
+                    </div>
+                </div>
+                <script src="script.js"></script>
+                <audio id="song">
+
+                    <source src="song.mp3" type="audio/mp3">
+                </audio>
+                <script>
+                    var song = document.getElementById("song");
+                    var icon = document.getElementById("icon");
+
+                    icon.onclick = function () {
+                        song.play();
+                    }
+                </script>
+</body>
+
+</html>
