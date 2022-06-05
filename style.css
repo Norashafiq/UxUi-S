@@ -1,0 +1,46 @@
+.container {
+    width: 950px;
+    background-color: #2e0202;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+#van {
+    width: 880px;
+    height: 200x;
+    background-color: #0a0a57;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 20px;
+
+}
+
+#gogh {
+    width: 880px;
+    height: 200x;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 20px;
+}
+
+#vangogh {
+    width: 880px;
+    height: 200x;
+    background-color: #730606;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 20px;
+
+}
