@@ -1,0 +1,23 @@
+
+
+.yes{
+
+    background: linear-gradient(to bottom,  #d9d9d992  60%, white 50%);
+
+}
+
+.first span {
+    font-weight: bold;
+}
+
+ .columns{
+
+    position: relative;
+    top:100px;
+
+ }
+.infos{
+
+    position: relative;
+    top:150px;
+} 
