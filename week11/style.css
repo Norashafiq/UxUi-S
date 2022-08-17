@@ -1,0 +1,131 @@
+body {
+    background-image: url(img/BackgroundImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.container-fluid {
+    background-color: #082c7199 !important;
+
+
+
+    position: absolute;
+
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.navbar-brand {
+
+    position: absolute !important;
+    width: 166px;
+    height: 38px;
+    left: 150px !important;
+    top: 41px !important;
+    padding-left: 145px !important;
+}
+
+.mr-auto {
+    position: absolute !important;
+    right: 150px !important;
+    padding-right: 145px !important;
+    top: 50px !important;
+}
+
+.nav-item a {
+
+
+    color: white !important;
+    font-family: 'Imprima', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 17px !important;
+
+
+
+}
+
+.contact {
+
+    padding: 10px !important;
+    width: 127px !important;
+    height: 50px !important;
+
+    text-align: center !important;
+    background: #0C1077 !important;
+    border-radius: 20px !important;
+    position: relative !important;
+    top: -10px !important;
+
+
+
+}
+
+.linkmr {
+    margin-right: 70px !important;
+}
+
+
+.content {
+    position: absolute !important;
+
+    height: 410px !important;
+    left: 115px !important;
+    top: 150px !important;
+
+    font-family: 'Cormorant Infant', serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 95px !important;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+
+    color: #F5F5F5;
+
+}
+
+.cities {
+    margin-top: 20px !important;
+
+}
+
+.footer {
+    background-color: #0c107780;
+    width: 100% !important;
+    height: 246px;
+    position: absolute !important;
+    left: 300px !important;
+    bottom: 0px;
+    text-align: left !important;
+
+
+
+}
+
+.city1 {
+    padding-top: 20px !important;
+    padding-left: 40px !important;
+}
+
+.city2 {
+    padding-top: 20px !important;
+    margin-left: -10px !important;
+}
+
+.city-text {
+    padding-top: 50px !important;
+    padding-left: 20px !important
+}
+
+.city-text {
+    font-family: 'Cormorant Infant', serif;
+
+}
