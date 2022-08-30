@@ -136,6 +136,9 @@ body {
 
 .hero-img img {
   width: 100%;
+  position: relative;
+  right: 100px;
+  top: 80px;
 }
 
 .hero-title {
@@ -234,8 +237,22 @@ body {
   width: 100%;
   object-fit: cover;
   height: 80vh;
+ position: relative;
+ left: 100px;
+}
+.forth img
+{
+  position: relative;
+ right:-300px; 
+ top: 200px;
 }
 
+.third img
+{
+  position: relative;
+ left:-200px; 
+ top: 200px;
+} 
 .project {
   margin: 0 !important;
   padding: 0 !important;
@@ -287,6 +304,7 @@ body {
 .content {
   font-family: sans-serif;
   width: 70%;
+  height: 25%;
   margin: 0 auto;
   left: 55%;
   top: 50%;
@@ -294,9 +312,22 @@ body {
   position: absolute;
   left: 10px;
   bottom: -20px !important;
-  color: rgba(255, 255, 255, 0.566);
+  color:white;
+  background-color: rgba(128, 128, 128, 0.487);
   text-transform: uppercase;
   font-size: 20px;
  
 
+}
+
+.content mark {
+  font-size: 15px;
+  color: black;
+  background-color: pink !important;
+}
+.content bold {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
 }
