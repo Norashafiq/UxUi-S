@@ -304,7 +304,7 @@ body {
 .content {
   font-family: sans-serif;
   width: 70%;
-  height: 25%;
+  height: 20%;
   margin: 0 auto;
   left: 55%;
   top: 50%;
@@ -338,6 +338,6 @@ body {
  {
   .content
   {
-    height: auto;
+    height: 35%;
   }
  }
